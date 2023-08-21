@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+div > p{
+        color: rgba(255, 255, 255, 0);
+}
+
+div:hover >  p {
+    transition-duration: 2s;
+    color: white;
+    font-size: 2em;
+
+}
+#primeira:hover{
+    transition: 1s;
+    background-color: blue;
+}
+
+#segunda:hover{
+    transition: 1s;
+    background-color: rgb(221, 56, 56);
+}
+
+#terceira:hover{
+    transition: 1s;
+    background-color: rgb(235, 235, 17);
+}
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}

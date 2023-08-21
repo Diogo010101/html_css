@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkred;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+}
+
+a::after{
+    content: '☚';
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+
+}
+
+a::before{
+    content: '☛';
+        font-size: 1.3em;
+        color: rgb(0, 0, 0);
+}

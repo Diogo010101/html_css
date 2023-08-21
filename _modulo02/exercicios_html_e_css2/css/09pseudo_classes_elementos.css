@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#teste_hover:hover{
+    background-color: rgba(255, 166, 0, 0.733);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+#teste_visited:visited{
+    color: rgb(255, 231, 17);
+}

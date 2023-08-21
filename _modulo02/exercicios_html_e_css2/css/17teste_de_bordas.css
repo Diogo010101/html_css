@@ -1,0 +1,11 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    border: 12px solid black;
+    padding: 10px;
+    border-image-source: url('/img/borda_decorada.png');
+    border-image-slice: 24;
+    border-image-repeat: repeat;
+}

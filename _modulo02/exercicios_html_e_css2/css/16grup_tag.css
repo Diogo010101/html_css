@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+    background-color: dimgray;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 1px black;
+}
+
+nav{
+    background: rgb(95, 95, 95);
+    padding: 7px 5px;
+    box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.418);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    background-color: rgba(25, 25, 25, 0.45);
+    padding: 5px;
+    border-radius: 5px 10px 5px 10px;
+    transition-duration: 0.5s;
+
+}
+
+
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#assuntos{
+    background-color: white;
+    font-weight: bold;
+}
+
+section{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+section > aside{
+    background-color: rgba(160, 160, 160, 0.40);
+    padding: 5px;
+
+}
+
+section > aside > p{
+    margin: 0px;
+
+}
+
+#autor{
+    color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+ 
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p{
+    padding: 2px;
+    background-color: rgba(40, 40, 40, 0.40);
+}
+
+footer > span{
+        font-weight: bold;
+}
+
+#bola{
+
+    margin: 10px auto 10px auto;
+    width: 25px;
+    height: 25px;
+    padding: 20px;
+    background-color: rgba(75, 35, 155, 0.45);
+    border-radius: 50%;
+}

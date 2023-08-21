@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Audio</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="/img/300por300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="/img/700por700.jpg" type="image/jpg">
+        <img src="/img/1000por1000.jpg" alt="Menina de vastido com um pássaro na guaiola">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <audio preload="metadata" src="midia/guanacast-33.mp3" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="ogg">
+        <source src="midia/guanacast-33.wav" type="audio/mpwav">
+        <p>Seu navegador não pode reproduzir esse áudio <a href="midia/guanacast-33.mp3" download="midia/guanacast-33.mp3" type="audio/mpeg">clique aqui e faça o download</a></p>
+    </audio>
+</body>
+</html>
