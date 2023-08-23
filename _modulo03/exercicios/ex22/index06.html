@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização Vertical de Caixas</title>
+    <style>
+        #div_de_fora{
+            width: 720px;
+            height: 550px;
+            background-color: purple;
+            background-image: url('/img/target001.png');
+            background-position: center center;
+            background-size: cover;
+            
+            position: relative;
+            padding: 10px;
+        }
+
+        #div_dentro{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border: 2px solid black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate("")
+ 
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="div_de_fora">
+        <div id="div_dentro">
+
+        </div>
+    </div>
+    
+</body>
+</html>
