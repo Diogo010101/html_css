@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    background-image: url('/img/espaco.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#caixa_astronauta{
+    margin-top: 5em;
+
+
+}
