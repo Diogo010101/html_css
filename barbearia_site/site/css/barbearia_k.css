@@ -100,7 +100,7 @@ p{
 
 /*APRESENTAÇÃO*/
 .flex_apresentacao{
-    padding: 5px;
+    padding: 50px;
     margin: 10px 0px;
     display: flex;
     flex-flow:  row wrap;
@@ -160,8 +160,10 @@ p{
 
 
 .flex_apresentacao_fotos3:hover {
-    transform: scale(1.2);
+    transform: scale(110%);
     transition: 1s;
+
+    
 }
 
 
@@ -174,7 +176,7 @@ p{
 }
 
 .flex_apresentacao_fotos4:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     margin: 25px;
     transition: 1s;
 }
@@ -188,7 +190,7 @@ p{
 
 
 .flex_apresentacao_fotos5:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     margin: 25px;
     transition: 1s;
 }

@@ -13,19 +13,12 @@ header{
 
 }
 
-header h1{
+header > h1{
     margin: 0px;
     font-family: 'Passion One', cursive;
-    font-weight: 700;
-    font-size: 7vw;
-    
+    font-variant: small-caps;
 }
 
-.grande{
-    font-size: 10vw;
-    font-family: 'Passion One', cursive;
-    font-weight: 700;
-}
 
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
