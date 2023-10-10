@@ -1,0 +1,17 @@
+main{
+    margin: auto;
+    width: 800px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px 2px;
+    
+
+}
+

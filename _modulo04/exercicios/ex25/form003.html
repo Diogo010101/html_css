@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/css/style.css">
+    <title>Inputs</title>
+</head>
+<body>
+    <main>
+        <h1>Cadastro Usuário</h1>
+        <form action="cadastro.php" method="GET">
+
+            <div>
+                <label for="ifoto">Foto de Perfil:</label>
+                <input type="file" name="foto" id="ifoto" accept="image/*">
+            </div>
+
+            <div>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome">
+            </div>
+
+            <div>
+                <label for="iidade">Idade</label>
+                <input type="number" name="idade" id="iidade" min="1" max="120">
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sex" id="ifem">
+                    <label for="ifem">Feminino</label>
+                    <input type="radio" name="sex" id="imasc" checked>
+                    <label for="imasc">Masculino</label>
+                </fieldset>
+            </div>
+
+            <div>
+                <label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" pattern="">
+            </div>
+
+            <div>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail">
+            </div>
+
+            <div>
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha">
+            </div>
+
+            <div>
+                <label for="mes_niver">Mês do seu aniversário</label>
+                <input type="date" name="mes_niver" id="imes_niver">
+            </div>
+
+            <div>
+                <label for="idia_compra">Dia da Compra</label>
+                <input type="datetime-local" name="dia_compra" id="idia_compra">
+            </div>
+
+            <div>
+                <label for="ihora_compra">Hora da Compra</label>
+                <input type="datetime-local" name="hora_compra" id="ihora_compra">
+            </div>
+
+            <div>
+                <label for="icor">Cor</label>
+                <input type="color" name="cor" id="icor">
+            </div>
+
+            <div>
+                <label for="isatisfacao">Nivel de Satisfação</label>
+                <input type="range" name="satisfacao" id="isatisfacao">
+            </div>
+
+            <div>
+                <label for="iaceito">Aceito os Termos</label>
+                <input type="checkbox" name="aceito" id="iaceito">
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
