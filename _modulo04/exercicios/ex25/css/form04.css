@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 800px;background-color: rgb(247, 247, 128);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+form{
+
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+        padding: 5px;
+}
+
+div{
+    align-self: flex-start;
+    padding: 5px;
+}
+
+.botoes{
+    align-self: center;
+}
