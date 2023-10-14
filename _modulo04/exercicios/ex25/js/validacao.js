@@ -1,9 +1,3 @@
-
-
-
-
-
-
 var objCep = document.querySelector("#idcep");
 var objsaida = document.querySelector("#idsaida");
 

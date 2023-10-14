@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form07.css">
+    <title>Outros inputs</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <div>
+            <label for="idmodelo">Modelo do Celular</label>
+            <select name="modelo" id="idmodelo">
+                <option value="">Escolha...</option>
+                <optgroup>
+                    <option value="AIP1364">iPhone 13 64GB</option>
+                    <option value="AIP13128">iPhone 13 128GB</option>
+                    <option value="AIP14128">iPhone 14 128GB</option>
+                    <option value="AIP14242">iPhone 14 242GB</option>
+                </optgroup>
+                <optgroup>
+                    <option value="SGS20128">Galaxy S20 Ultra 128GB</option>
+                    <option value="SGS20SE128">Galaxy S20 SE 128GB</option>
+                    <option value="SGTS6L128">Galaxy TAB S6 Lite 128GB</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="idespec">Especificações técnicas</label>
+        </div>
+        <div>
+            <textarea name="espec" id="idespec" cols="45" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <label for="idprof">Profissão</label>
+            <input type="text" name="prof" id="idprof" list="proflist">
+            <datalist id="proflist">
+                <optgroup label="Negócios">
+                    <option value="Administrador"></option>
+                    <option value="Contabilista"></option>
+                    <option value="Gestor de RH"></option>
+                </optgroup>
+
+                <optgroup label="Artes e Designer">
+                    <option value="Animador"></option>
+                    <option value="Ator"></option>
+                    <option value="Fotórafo"></option>
+                </optgroup>
+
+                <optgroup label="Ciências Exatas">
+                    <option value="Analista de Sistemas"></option>
+                    <option value="Estatístico"></option>
+                    <option value="Matemático"></option>
+                </optgroup>
+
+                <optgroup label="Ciências Humanas">
+                    <option value="Advogado"></option>
+                    <option value="Linguista"></option>
+                    <option value="Professor"></option>
+                </optgroup>
+            </datalist>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Esportes Favoritos</legend>
+
+                <label for="idfutebol">Futebol</label>
+                <input type="checkbox" name="futebol" id="idfutebol"></br>
+
+                <label for="idbasebal">Basebal</label>
+                <input type="checkbox" name="basebal" id="idbasebal"></br>
+
+                <label for="idtenis">Tenis</label>
+                <input type="checkbox" name="tenis" id="idtenis"></br>
+            </fieldset>
+        </div>
+
+    </form>
+    
+</body>
+</html>
