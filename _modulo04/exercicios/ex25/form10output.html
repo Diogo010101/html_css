@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <h1>Exemplo de Output</h1>
+        <div>
+            <label for="idint1">Número 1</label>
+            <input type="number" name="int1" id="idint1" min="0" max="50" required
+            oninput="isoma.innerHTML = Number(idint1.value) + Number(idint2.value)">
+        </div>
+        <div>
+            <label for="idint1">Número 2</label>
+            <input type="number" name="int2" id="idint2" min="0" max="50" required
+            oninput="idsoma.innerHTML = Number(idint1.value) + Number(idint2.value)">
+        </div>
+        <div>
+            <label for="idsoma"></label>
+            <Output name="soma" id="idsoma">Soma</Output>
+        </div>
+        <div>
+            <input type="submit" value="Somar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    
+</body>
+</html>

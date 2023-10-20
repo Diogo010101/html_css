@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output com Range</title>
+</head>
+<body>
+
+    <form action="#" method="GET">
+        <P>
+            <label for="idmetrica">Satisfação</label>
+            <input type="range" name="metrica" id="idmetrica" min="0" max="10" value="5"
+            oninput="metricasaida.innerHTML = idmetrica.value">
+            <Output id="metricasaida">5</Output>
+        </P>
+    </form>
+    
+</body>
+</html>
