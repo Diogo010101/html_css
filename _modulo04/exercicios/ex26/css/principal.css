@@ -1,0 +1,10 @@
+body{
+    background-color: blue;
+}
+
+#quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
