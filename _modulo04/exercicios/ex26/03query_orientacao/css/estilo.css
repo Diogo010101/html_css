@@ -2,6 +2,10 @@
 
 /*Modo Landscape*/
 @media screen and (orientation: landscape){
+    * {
+            margin: 0px;
+            padding: 0px;
+        }
     body {
             background-image: url('../img/cev-landscape.jpg');
             background-size: cover;
@@ -10,12 +14,17 @@
             background-attachment: fixed;
         }
     h1::after {
-        content: "Modo Landscape Você pode alterar a orientação da tela";
+        content: "Modo Landscape";
         color: white;
+        padding: 10px;
     }
 }
 /*Mode Portrait*/
 @media screen and (orientation: portrait) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     body{
         background-image: url('../img/cev-portrait.jpg');
             background-size: cover;
@@ -24,8 +33,9 @@
             background-attachment: fixed;
     }
     h1::after {
-        content: "Modo Portrait Você pode alterar a orientação da tela";
+        content: "Modo Portrait";
         color: white;
+        padding: 10px;
     }
 }
 /*Telas de no minimo 768px*/
