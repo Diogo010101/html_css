@@ -1,0 +1,69 @@
+/*CSS principal*/
+body{
+    background-color: rgb(247, 111, 111);
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo para Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-color: rgb(68, 68, 248);
+    }
+    h1::after{
+        content: 'Essa é a versão de Tablet';
+        background-color: black;
+        padding: 10px;
+        color: white;
+    }
+}
+
+
+/*Estilo para PC*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+            background-color: rgb(248, 236, 68);
+        }
+    
+        h1::after {
+            content: 'Essa é a versão de PC';
+            background-color: rgb(155, 255, 194);
+            padding: 10px;
+            color: white;
+        }
+}
+
+/*Estilo para Telas grandes*/
+@media screen and (min-width: 1200px){
+    body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    
+        h1::after {
+            content: 'Essa é a versão para telas grandes';
+            background-color: rgb(190, 155, 255);
+            padding: 10px;
+            color: white;
+        }
+}
+
+/*Estilo para Impressora*/
+@media print{
+    *{
+        margin: 10px;
+        padding: 10px;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        color: black;
+    }
+        p::after {
+        content: 'Essa é a versão para IMPRESSORA';
+        background-color: rgb(190, 155, 255);
+        padding: 10px;
+        color: black;
+    }
+}
