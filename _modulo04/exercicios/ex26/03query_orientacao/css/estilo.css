@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*Modo Landscape*/
+@media screen and (orientation: landscape){
+    body {
+            background-image: url('../img/cev-landscape.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    h1::after {
+        content: "Modo Landscape Você pode alterar a orientação da tela";
+        color: white;
+    }
+}
+/*Mode Portrait*/
+@media screen and (orientation: portrait) {
+    body{
+        background-image: url('../img/cev-portrait.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+    }
+    h1::after {
+        content: "Modo Portrait Você pode alterar a orientação da tela";
+        color: white;
+    }
+}
+/*Telas de no minimo 768px*/
+@media screen and (min-width: 768px){
+    body{
+        background-image: none;
+    }
+    h1::after{
+        content: "Reduza o tamanho da sua tela";
+        color: black;
+    }
+}
+
+
+
