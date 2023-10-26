@@ -8,3 +8,11 @@ function dropMenu(){
         objMenu.style.display = 'none'
     }
 }
+
+function mostrarMenu(){
+    if(window.innerWidth >= 768){
+        objMenu.style.display = 'block'
+    }else{
+        objMenu.style.display = 'none'
+    }
+}

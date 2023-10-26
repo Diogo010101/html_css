@@ -72,7 +72,7 @@ main p{
     padding: 10px 0px;
 }
 
-@media screen and (min-width: 763px) {
+@media screen and (min-width: 768px) {
     nav ul li{
         display: inline-block;
     }
